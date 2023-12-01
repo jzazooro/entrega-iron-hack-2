@@ -1,7 +1,35 @@
-/* En styles.css */
-
 body {
-    background-image: url('/static/foto1.jpg'); /* Ruta relativa a la imagen en el directorio static */
-    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana del navegador */
-    /* Otros estilos */
-}
+    background-image: url('foto1.jpg');
+    background-size: cover; /* Para cubrir toda el área del cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-image: url('foto1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* Otros estilos para el contenedor */
+      
+  }
+  
+
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  

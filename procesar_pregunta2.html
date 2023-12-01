@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Procesando Pregunta 2</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Procesando Pregunta 2</h1>
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Aquí procesarías la respuesta a la pregunta 2 de manera similar al ejemplo anterior
+        // Por ejemplo:
+        $respuesta2 = $_POST['question2']; // Obtener la respuesta del formulario
+        echo "<p>Respuesta a la pregunta 2: $respuesta2</p>";
+        // Redireccionar al usuario al resultado final o a la página de resumen
+        header("Location: resultado_final.html"); // Redireccionar al resultado final
+        exit();
+    } else {
+        echo "<p>No se han recibido datos del formulario.</p>";
+    }
+    ?>
+  </div>
+</body>
+</html>
