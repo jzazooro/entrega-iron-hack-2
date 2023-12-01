@@ -1,0 +1,7 @@
+/* En styles.css */
+
+body {
+    background-image: url('/static/foto1.jpg'); /* Ruta relativa a la imagen en el directorio static */
+    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana del navegador */
+    /* Otros estilos */
+}
